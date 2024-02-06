@@ -1,0 +1,30 @@
+.desktop-nav{
+    padding: 24px 4px;
+    background-color: #001831;
+}
+.category-btn{
+    border: 0.5px solid #4270A3;
+    color: #ffff;
+    font-size: 16px;
+    text-align: center;
+}
+.nav-item{
+    padding-right: 20px;
+    font-size: 16px;
+}
+.services-car-btn{
+    background-color: #1149DA;
+    margin-left: 10px;
+}
+.agahi{
+    background-color: #FF4F00;
+    margin-left: 10px;
+}
+.menu-icon{
+    background-color: #4D6278;
+    border-radius: 1000px;
+    Padding: 8px 12px;
+    color: #ffff;
+    font-size: 18px;
+    margin-left: 10px;
+}
