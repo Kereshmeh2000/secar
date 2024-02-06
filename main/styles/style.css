@@ -13,3 +13,42 @@ a{
     gap: 8px;
     border: 0.5px;
 }
+
+/* hiro section styles */
+
+.hero-section{
+    padding: 100px;
+    background-color: #F9FAFB;
+}
+.hero-title{
+    font-weight: 200;
+    line-height: 40px;
+    font-size: 40px;
+    color: #54778C;
+}
+.hero-title-orange{
+    font-weight: 900;
+    font-size: 40px;
+    color: #FF4F00;
+}
+.hero-title-blue{
+    font-weight: 900;
+    font-size: 40px;
+    color: #0F4788;
+}
+.hero-text{
+    font-size: 18px;
+    line-height: 40px;
+}
+.hero-input-title{
+    color: #777777F2;
+    font-size: 20px;
+}
+.hero-input{
+    border: 1px solid #D1D5DB;
+    border-radius: 16px;
+    padding: 12px 32px;
+}
+.hero-input-text{
+    color: #777777F2;
+}
