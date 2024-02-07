@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'vazir';
+    background-color: #F9FAFB;
 }
 a{
     text-decoration: none;
@@ -22,11 +23,26 @@ a{
                           src: url(../fonts/vazir-font-v16.1.0/Vazir-Medium.woff) format('woff');
 }
 
+
+/* main colors */
+
+.gray{
+    color: #777777F2;
+}
+.blue{
+    color: #0F4788;
+}
+.light-blue{
+    color: #54778C;
+}
+.orange{
+    color: #FF4F00;
+}
+
 /* hiro section styles */
 
 .hero-section{
     padding: 100px;
-    background-color: #F9FAFB;
 }
 .hero-title{
     font-weight: 200;
@@ -37,7 +53,6 @@ a{
 .hero-title-orange{
     font-weight: 900;
     font-size: 40px;
-    color: #FF4F00;
 }
 .hero-title-blue{
     font-weight: 900;
@@ -59,4 +74,38 @@ a{
 }
 .hero-input-text{
     color: #777777F2;
+}
+
+/* category section styles */
+
+.category{
+    padding: 64px 0px;
+    overflow: hidden;
+}
+.category-text{
+    color: #4F4F4F;
+    text-align: center;
+    font-size: 14px;
+}
+.category-row{
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: repeat(11, 1fr);
+    padding: 0px 10px;
+}
+.category-icon{
+    background-color: #E9F4FF;
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+}
+.pentagon-icon{
+    color: #000000;
+    font-size: 35px;
+}
+.category-all-btn{
+    background-color: #F3F3F3;
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
 }
