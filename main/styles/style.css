@@ -6,6 +6,7 @@
 body{
     font-family: 'vazir';
     background-color: #F9FAFB;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -80,7 +81,6 @@ a{
 
 .category{
     padding: 64px 0px;
-    overflow: hidden;
 }
 .category-text{
     color: #4F4F4F;
@@ -88,9 +88,6 @@ a{
     font-size: 14px;
 }
 .category-row{
-    display: grid;
-    grid-gap: 7px;
-    grid-template-columns: repeat(11, 1fr);
     padding: 0px 10px;
 }
 .category-icon{
@@ -108,4 +105,19 @@ a{
     width: 90px;
     height: 90px;
     border-radius: 25px;
+}
+
+/* Ads section styles */
+
+.ads-title{
+    font-size: 24px;
+    color: #54778C;
+}
+.ads-btn{
+    border: 1px solid #C3D5E0;
+    border-radius: 8px;
+    padding: 4px 16px;
+    font-size: 12px;
+    color: #54778C;
+    background-color: #ffff;
 }
