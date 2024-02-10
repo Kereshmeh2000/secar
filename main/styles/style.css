@@ -244,3 +244,18 @@ a{
     border-radius: 8px;
     margin-right: 15px;
 }
+
+/* about section style////////////////////////////////////////////////////////// */
+
+.seo-title{
+    color: #6A6A6A;
+    font-size: 20px;
+    padding: 15px 8px;
+    margin-top: 20px;
+}
+.seo-text{
+    font-size: 14px;
+    color: #6A6A6A;
+    font-weight: 300;
+    line-height: 21px;
+}
