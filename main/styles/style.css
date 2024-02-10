@@ -259,3 +259,23 @@ a{
     font-weight: 300;
     line-height: 21px;
 }
+.accordion{
+    
+}
+.accordion-item{
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.accordion-button{
+    color: #6A6A6A !important;
+    background-color: #ffffff !important;
+}
+.accordion-button:focus {
+    border-color: #ffffff !important;
+    border: none !important;
+}
+.accordion-text{
+    color: #6A6A6A;
+    font-weight: 300;
+}
