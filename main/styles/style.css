@@ -82,6 +82,12 @@ a{
     color: #777777F2;
 }
 
+/* slider section styles ////////////////////////////////////////////////////////////// */
+
+.slider-section{
+    height: 480px !important;
+}
+
 /* category section styles ////////////////////////////////////////////////////////// */
 
 .category{
