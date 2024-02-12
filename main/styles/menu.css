@@ -23,7 +23,7 @@
     background-color: #FF4F00;
     margin-left: 10px;
 }
-.menu-icon{
+.desktop-menu-icon{
     background-color: #4D6278;
     border-radius: 1000px;
     Padding: 8px 12px;
@@ -32,3 +32,69 @@
     margin-left: 10px;
     cursor: pointer;
 }
+.dropdown{
+    text-align: right;
+}
+
+
+/* responsive menu //////////////////////////////////////////////////////// */
+
+
+@media only screen and (min-width: 300px) and (max-width: 1325px){
+    .desktop-nav{
+      display: none;
+    }
+    .responsive-nav{
+      display: block;
+    }
+  }
+  @media only screen and (min-width: 1325px)  and (max-width: 1600px){
+    .desktop-nav{
+      display: block;
+    }
+    .responsive-nav{
+      display: none;
+    }
+  }
+.responsive-nav-ul li a{
+    color: black;
+}
+.menu-btn{
+    font-size:35px;
+    cursor:pointer;    
+    margin: 20px;
+  }
+  .menu-icon{
+    color: #F76631;
+  }
+
+  .menu-section{
+    width: 300px;
+  }
+  #side-navigation-drawer {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .close-btn {
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 5px 15px;
+    color: #F76631;
+    float: left;
+  }
+  .responsive-hr{
+    color: gray;
+    margin: 0.5em auto;
+    border-style: inset;
+    border-width: 1px;
+  }
