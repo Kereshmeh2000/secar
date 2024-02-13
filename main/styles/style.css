@@ -120,6 +120,14 @@ a{
 
 /* Ads section styles////////////////////////////////////////////////////////// */
 
+.my-ads-card{
+        background-color: #fff;
+        padding: 16px;
+        border-radius: 8px;
+    
+}
+
+
 /* list-section ///////////////////////////////////////////////////////////////// */
 
 .image-container {
