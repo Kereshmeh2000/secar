@@ -257,8 +257,13 @@ a{
 .car-img{
     width: 340px !important;
 }
+.banner1-btn{
+    background-color: #1D93D1;
+    font-size: 14px;
+}
 .banner2-btn{
-    background-color: #FF4F00 !important;
+    background-color: #FF4F00;
+    font-size: 14px;
 }
 
 /* list section styles ///////////////////////////////////////////////////////////// */
@@ -326,7 +331,18 @@ a{
     margin-right: 15px;
 }
 
-/* about section style////////////////////////////////////////////////////////// */
+
+/* app-section styles/////////////////////////////////////////////////////////////// */
+
+.app{
+    background-color: #FF4F00;
+    border-radius: 32px;
+}
+.app-right{
+    padding: 50px;
+}
+
+/* seo section style////////////////////////////////////////////////////////// */
 
 .seo-title{
     color: #6A6A6A;
