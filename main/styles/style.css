@@ -82,8 +82,24 @@ a{
 
 /* slider section styles ////////////////////////////////////////////////////////////// */
 
-.carousel-item{
-    height: 480px !important;
+
+.slider-overlay1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0F4788;
+    opacity: 0.5;
+}
+.slider-overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FF0000;
+    opacity: 0.5;
 }
 
 /* category section styles ////////////////////////////////////////////////////////// */
