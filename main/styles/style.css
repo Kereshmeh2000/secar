@@ -66,10 +66,13 @@ a{
 .hero-text{
     font-size: 18px;
     line-height: 40px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .hero-input-title{
     color: #777777F2;
     font-size: 20px;
+    padding-top: 20px;
 }
 .hero-input{
     border: 1px solid #D1D5DB;
@@ -80,6 +83,28 @@ a{
     color: #777777F2;
 }
 
+@media only screen and (min-width: 250px) and (max-width: 537px){
+    .hero-title{
+        font-size: 25px;
+    }
+    .hero-title-orange{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .hero-title-blue{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .hero-text{
+        font-size: 14px;
+    }
+    .hero-section{
+        padding: 20px 0 0 0;
+    }
+    .hero-input-text{
+        font-size: 14px;
+    }
+}
 
 /* slider section styles ////////////////////////////////////////////////////////////// */
 
@@ -281,6 +306,18 @@ a{
     font-size: 14px;
 }
 
+@media only screen and (min-width: 250px) and (max-width: 537px){
+    .banner-title1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .banner-title2{
+        font-size: 20px;
+        font-weight: normal;
+    }
+}
+
+
 /* list section styles ///////////////////////////////////////////////////////////// */
 
 
@@ -345,6 +382,20 @@ a{
     border-radius: 8px;
     margin-right: 15px;
 }
+@media only screen and (min-width: 250px) and (max-width: 537px){
+    .about-title{
+        font-size: 20px;
+    }
+    .about-btn-right{
+        padding: 8px 34px;
+        font-size: 14px;
+    }
+    .about-btn-left{
+        padding: 8px 34px;
+        font-size: 14px;
+    }
+}
+
 
 
 /* app-section styles/////////////////////////////////////////////////////////////// */
@@ -386,6 +437,8 @@ a{
 .accordion-text{
     color: #6A6A6A;
     font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
 }
 /* footer style////////////////////////////////////////////////////////// */
 
